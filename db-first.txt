@@ -1,0 +1,14 @@
+Automobili
+
+ID 			 Numero               Primary_Key           Auto_Increment   Unique    Not_Null
+Marca  		 	 Stringa              Varchar(20)           Not_Null
+Modello  		 Stringa              Varchar(20)	    Not_Null
+Cilindrata 		 Numero               MediumInt 	    Not_Null
+Alimentazione  	 	 Stringa              Varchar(20)	    Not_Null
+Km 		 	 Numero               MediumInt 	    Not_Null
+Colore 		 	 Stringa              Varchar(20)
+Anno Immatricolazione 	 Date                 Year 		    Not_Null
+Pronta Consegna 	 Booleano             TinyInt               Default(0)
+Prezzo 		 	 Numero               Double (8, 2)	    Not_Null
+Euro  		 	 Numero               TinyInt (da 0 a 6)    Not_Null	 
+Descrizione		 Stringa      	      Text                  
